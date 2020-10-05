@@ -1,0 +1,90 @@
+#fontText {
+  color:whitesmoke;
+
+}
+/*-------------header------------*/
+body {
+  background-image: url(../img/screen-2.jpg);
+  background-repeat: repeat;
+  background-attachment: fixed;
+}
+/*-------NAVBAR--------*/
+
+#navigation li {
+  display: inline;
+}
+#navigation {
+  margin: 0 ;
+  padding: 0 ;
+  list-style: none ;
+  text-align: center ;
+}
+#navigation li {
+  display: inline ;
+  margin-right: 1px ;
+  color: #fff ;
+  border-radius: 50px 50px 50px 50px;
+}
+#navigation li a {
+  padding: 4px 20px ;
+  background:#1475a8;
+  color: #fff ;
+  border: 1px solid #353535;
+  font: 1em "Trebuchet MS",Arial,sans-serif ;
+  line-height: 1em ;
+  text-align: center ;
+  text-decoration: none ;
+}
+#navigation li a:hover, #navigation li a:focus, #navigation li a:active {
+  background:#353535 ;
+  text-decoration: underline ;
+}
+
+/*---------------Titres--------------*/
+h1 {
+  font-family: monospace;
+  padding-top: 2em;
+  text-align: center;
+  color: #fff;
+  font-size: 3em;
+  border-radius: 100px 100px 100px;
+  margin: 0% 25% 10% 25%;
+}
+
+h2 {
+    border: 2px solid #1475a8;
+  padding: .5em;
+  text-align: center;
+  border-radius: 20px 20px 20px;
+  margin: 0 25% 0 25%;
+}
+
+h3 {
+    border: 2px solid #9bb8ca;
+  padding: .5em;
+  text-align: center;
+  border-radius: 20px 20px 20px;
+  margin: 0 25% 0 25%;
+}
+
+/*-------------<Div>-------------*/
+.commandLine {
+  
+  border-radius: 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+  }
+.sudoCommand {
+  
+  border-radius: 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
+.manipTerminal {
+  
+  border-radius: 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
+.gitHubCommand {
+  
+  border-radius: 20px 20px 20px;
+  padding: 10px 10px 10px 10px;
+}
