@@ -1,13 +1,13 @@
-#fontText {
-  color:whitesmoke;
 
-}
-/*-------------header------------*/
 body {
+  color:whitesmoke;
   background-image: url(../img/screen-2.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
 }
+/*-------------header------------*/
+
+
 /*-------NAVBAR--------*/
 
 #navigation li {
@@ -39,52 +39,74 @@ body {
   background:#353535 ;
   text-decoration: underline ;
 }
-
+strong {
+  color: #1475a8;
+}
 /*---------------Titres--------------*/
 h1 {
-  font-family: monospace;
+  font-family: 'Raleway', sans-serif;
   padding-top: 2em;
   text-align: center;
   color: #fff;
   font-size: 3em;
-  border-radius: 100px 100px 100px;
   margin: 0% 25% 10% 25%;
 }
-
-h2 {
-    border: 2px solid #1475a8;
+h2 { 
+  border-spacing: 1em;
+  border: 2px solid #9bb8ca;
   padding: .5em;
   text-align: center;
-  border-radius: 20px 20px 20px;
-  margin: 0 25% 0 25%;
+  border-radius: 20px 20px 20px; 
 }
-
 h3 {
-    border: 2px solid #9bb8ca;
+  border-spacing: 1em;
+  border: 2px solid #9bb8ca;
   padding: .5em;
   text-align: center;
   border-radius: 20px 20px 20px;
   margin: 0 25% 0 25%;
 }
-
 /*-------------<Div>-------------*/
+#blockOne {
+  border: rgb(77, 188, 215);
+  background-color: rgba(77, 188, 215, 1);
+}
 .commandLine {
-  
-  border-radius: 20px 20px 20px;
-  padding: 10px 10px 10px 10px;
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
   }
-.sudoCommand {
-  
+.actTwo{
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
   border-radius: 20px 20px 20px;
   padding: 10px 10px 10px 10px;
 }
 .manipTerminal {
-  
+  box-sizing: border-box;
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+  height: 300px;
   border-radius: 20px 20px 20px;
   padding: 10px 10px 10px 10px;
 }
-.gitHubCommand {
-  
-  border-radius: 20px 20px 20px;
-  padding: 10px 10px 10px 10px;
 }
+
+}
+/*-------footer--------------*/
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  background-color: #1475a8;
+  width: 100%;
+  text-align: center;
+}
+/*------------ANimation-------------*/
+*
